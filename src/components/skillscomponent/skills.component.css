@@ -1,0 +1,163 @@
+.skills .progress {
+    height: 60px;
+    display: block;
+    background: none;
+    border-radius: 0;
+  }
+  
+  .skills .progress .skill {
+    padding: 0;
+    margin: 0 0 6px 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #050d18;
+  }
+  
+  .skills .progress .skill .val {
+    float: right;
+    font-style: normal;
+  }
+  
+  .skills .progress-bar-wrap {
+    background: #dce8f8;
+    height: 10px;
+  }
+  
+  .skills .progress-bar {
+    width: 1px;
+    height: 10px;
+    transition: 0.9s;
+    background-color: #149ddd;
+  }
+
+
+
+
+
+  h3 {
+    margin: 5px;
+  }
+
+  .bar {
+    display: block;
+    height: 20px;
+    background: #353b48;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  }
+
+  .bar:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.1), 0 10px 10px rgba(0,0,0,0.22);
+  }
+
+  .bar span {
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg,rgba(236,0,140,1)0%, rgba(235, 103, 103, 1)100%);
+  }
+
+  .html{
+    width: 100%;
+    animation: html 3s;
+  }
+  .css{
+    width: 100%;
+    animation: html 3s;
+  }
+  .javascript{
+    width: 75%;
+    animation: html 3s;
+  }
+  .reactjs{
+    width: 85%;
+    animation: html 3s;
+  }
+
+  .bootstrap{
+    width: 100%;
+    animation: html 3s;
+  }
+
+  .mysql{
+    width: 75%;
+    animation: html 3s;
+  }
+
+  .NodeJS{
+    width: 65%;
+    animation: html 3s;
+  }
+
+  .Express{
+    width: 65%;
+    animation: html 3s;
+  }
+
+  .MongoDB{
+    width: 75%;
+    animation: html 3s;
+  }
+
+
+  @keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+  }
+  @keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+  }
+  @keyframes reactjs{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 85%;
+    }
+  }
+  @keyframes bootstrap{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+  }
+  @keyframes javascript{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 75%;
+    }
+  }
+  @keyframes mysql{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 15%;
+    }
+  }
+  @keyframes NodeJS{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 65%;
+    }
+  }
+  

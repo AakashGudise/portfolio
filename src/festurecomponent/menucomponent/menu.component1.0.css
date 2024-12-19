@@ -1,0 +1,48 @@
+/* Mobile Navigation Toggle */
+.mobile-nav-toggle {
+    position: fixed;
+    right: 15px;
+    top: 15px;
+    z-index: 9998;
+    border: 0;
+    font-size: 24px;
+    transition: all 0.4s;
+    outline: none !important;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    cursor: pointer;
+  }
+  
+  .mobile-nav-active {
+    overflow: hidden;
+  }
+  
+  .mobile-nav-active #header {
+    left: 0;
+  }
+  
+  /* Ensure smooth sliding effect for the navbar */
+  #header {
+    transition: all 0.5s ease-in-out;
+  }
+  
+  /* Mobile View */
+  @media (max-width: 768px) {
+    #header {
+      width: 50%;
+      height: auto;
+      position: fixed;
+      left: -100%; /* Initially hidden */
+      z-index: 9997;
+    }
+  
+    #header.mobile-nav-active {
+      left: 0;
+    }
+  }
+  
