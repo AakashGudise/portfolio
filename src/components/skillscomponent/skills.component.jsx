@@ -10,6 +10,8 @@ export function SkillsComponent() {
                 <div className="container">
 
                     <div className="section-title">
+                    <br></br>
+
                         <h2>Skills</h2>
                         <p>As a MERN Stack Developer, I have built scalable web applications 
                             using MongoDB, Express.js, React.js, and Node.js, optimizing both

@@ -44,6 +44,8 @@ export function ContactComponent() {
                     <div className="container">
 
                         <div className="section-title">
+                        <br></br>
+
                             <h2>Contact</h2>
                             <p>Building seamless and efficient web applications requires a 
                                 strong grasp of modern technologies. As MERN stack developers, 

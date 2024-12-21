@@ -20,6 +20,8 @@ export function PortfolioComponent() {
                 <div class="container">
 
                     <div class="section-title">
+                    <br></br>
+
                         <h2>Portfolio</h2>
                         <p>  I am a dedicated MERN Stack Developer with 1 year of experience in 
                             building responsive web applications using React.js, Node.js, Express.js, 

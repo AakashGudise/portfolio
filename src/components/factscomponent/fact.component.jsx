@@ -51,6 +51,7 @@ export function FactsComponent() {
                 <div class="container">
 
                     <div class="section-title">
+                        <br></br>
                         <h2>Facts</h2>
                         <p>In the span of 2 year of experience worked with different clients.</p>
                     </div>

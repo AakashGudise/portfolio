@@ -11,6 +11,8 @@ export function AboutComponent() {
       <div className="container">
 
         <div className="section-title">
+        <br></br>
+
           <h2>About</h2>
           <p>Driven developer skilled at solving complex problems and delivering seamless solutions. 
             Experienced in tackling challenges with precision, ensuring efficient functionality and 

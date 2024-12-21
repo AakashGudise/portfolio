@@ -7,6 +7,8 @@ export function ResumeComponent() {
                 <div className="container">
 
                     <div className="section-title">
+                    <br></br>
+
                         <h2>Resume</h2>
                         <p>MERN Stack developer skilled in MongoDB, Express.js, React.js and Node.js. 
                             Proven success in crafting and deploying web applications for optimal 

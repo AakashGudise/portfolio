@@ -14,7 +14,7 @@
 //         words:['Developer','Designer','A MERN STACK Developer', 'FREELANCER'],
 //         loop: {}
 //     });
-    
+
 
 
 //     // useEffect
@@ -33,7 +33,7 @@
 
 
 //     return (
-        
+
 
 //         <div>
 //             <section id="hero" className="d-flex flex-column justify-content-around align-items-center">
@@ -72,14 +72,23 @@ export function HomeComponent() {
     return (
         <div>
             <section id="hero" className="d-flex flex-column justify-content-around align-items-center">
-                <div className="hero-container">
+                {/* <div className="hero-container"> */}
+                    <div className="hero-container">
+                        <h1>Gudise Aakash</h1>
+                        <p>I'm  <span >
+                            {text}
+                        </span> <Cursor></Cursor> </p>
+                    </div>
+
+                    {/* <div className="hero-container">
                     <h1>Gudise Aakash</h1>
                     <p>
                         I'm <span>{text}</span>
                         <Cursor cursorStyle="|" />
-                    </p>
-                </div>
+                    </p>*/}
+                {/* </div> */}
             </section>
         </div>
     );
+
 }

@@ -15,6 +15,8 @@ export function ServicesCompnent() {
                 <div className="container">
 
                     <div className="section-title">
+                    <br></br>
+
                         <h2>Services</h2>
                         <p>
                         MERN Stack Developer specializes in building dynamic, 
