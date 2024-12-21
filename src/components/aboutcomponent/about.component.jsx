@@ -25,15 +25,16 @@ export function AboutComponent() {
           <div className="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
             <h3>Associate Software Developer</h3>
             <p className="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
+            MERN Stack developer skilled in MongoDB, Express.js, React.js and Node.js. 
+            Proven success in crafting and deploying web applications for optimal user experiences. 
+            Actively seeking opportunities for contribution and professional growth.
             </p>
             <div className="row">
               <div className="col-lg-6">
                 <ul>
                   <li><ChevronRight></ChevronRight> <strong>Birthday:</strong> <span>12 June 1999</span></li>
-                  <li><ChevronRight></ChevronRight> <strong>Website:</strong> <span>www.example.com</span></li>
-                  <li><ChevronRight></ChevronRight> <strong>Phone:</strong> <span>+123 456 7890</span></li>
+                  <li><ChevronRight></ChevronRight> <strong>Website:</strong> <span>https://akashportfolio-gold.vercel.app</span></li>
+                  <li><ChevronRight></ChevronRight> <strong>Phone:</strong> <span>+91 7989023063</span></li>
                   <li><ChevronRight></ChevronRight> <strong>City:</strong> <span>Falaknuma,Hyderabad</span></li>
                 </ul>
               </div>

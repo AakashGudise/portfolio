@@ -11,12 +11,18 @@ export function SkillsComponent() {
 
                     <div className="section-title">
                         <h2>Skills</h2>
-                        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                        <p>As a MERN Stack Developer, I have built scalable web applications 
+                            using MongoDB, Express.js, React.js, and Node.js, optimizing both
+                             front-end and back-end performance. I am experienced in developing 
+                             RESTful APIs, managing state with React and Redux, and ensuring secure, 
+                             efficient data handling. Additionally, I have deployed applications, 
+                             integrated security best practices, and utilized modern development 
+                             tools for streamlined workflows.</p>
                     </div>
 
                     <div className="row skills-content">
 
-                        <div className="col-lg-4" data-aos="fade-up">
+                        <div className="col-lg-6" data-aos="fade-up">
 
                             <div className="progress">
                                 <span className="skill">HTML <i className="val">100%</i></span>
@@ -37,17 +43,25 @@ export function SkillsComponent() {
                             </div>
 
                             <div className="progress">
-                                <span className="skill">JavaScript <i className="val">75%</i></span>
+                                <span className="skill">JavaScript <i className="val">65%</i></span>
                                 <div className="progress-bar-wrap">
                                     {/* <div className="progress-bar javascript" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div> */}
                                     {/* <h3>Java Script</h3> */}
                                     <span className='bar'><span className='javascript'></span></span>
                                 </div>
                             </div>
+                            <div className="progress">
+                                <span className="skill">Bootstrap <i className="val">90%</i></span>
+                                <div className="progress-bar-wrap">
+                                    {/* <div className="progress-bar bootstrap" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div> */}
+                                    {/* <h3>Bootstrap</h3> */}
+                                    <span className='bar'><span className='bootstrap'></span></span>
+                                </div>
+                            </div>
 
                         </div>
 
-                        <div className="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                        <div className="col-lg-6" data-aos="fade-up" data-aos-delay="100">
 
                             <div className="progress">
                                 <span className="skill">React JS <i className="val">80%</i></span>
@@ -57,30 +71,7 @@ export function SkillsComponent() {
                                     <span className='bar'><span className='reactjs'></span></span>
                                 </div>
                             </div>
-
-                            <div className="progress">
-                                <span className="skill">Bootstrap <i className="val">90%</i></span>
-                                <div className="progress-bar-wrap">
-                                    {/* <div className="progress-bar bootstrap" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div> */}
-                                    {/* <h3>Bootstrap</h3> */}
-                                    <span className='bar'><span className='bootstrap'></span></span>
-                                </div>
-                            </div>
-                            
-
-                            <div className="progress">  
-                                <span className="skill">Mongo DB <i className="val">85%</i></span>
-                                <div className="progress-bar-wrap">
-                                    {/* <div className="progress-bar mysql" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div> */}
-                                    {/* <h3>My Sql</h3> */}
-                                    <span className='bar'><span className='mysql'></span></span>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div className="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-
-                            <div className="progress">
+                            <div className="progress" >
                                 <span className="skill">Node JS <i className="val">65%</i></span>
                                 <div className="progress-bar-wrap">
                                     {/* <div className="progress-bar reactjs" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div> */}
@@ -97,18 +88,42 @@ export function SkillsComponent() {
                                     <span className='bar'><span className='Express'></span></span>
                                 </div>
                             </div>
-                            
-
-                            <div className="progress">  
-                                <span className="skill">Mongo DB<i className="val">85%</i></span>
+                            <div className="progress">
+                                <span className="skill">Mongo DB <i className="val">85%</i></span>
                                 <div className="progress-bar-wrap">
                                     {/* <div className="progress-bar mysql" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div> */}
                                     {/* <h3>My Sql</h3> */}
-                                    <span className='bar'><span className='MongoDB'></span></span>
+                                    <span className='bar'><span className='mysql'></span></span>
                                 </div>
                             </div>
 
                         </div>
+                        {/* <div className="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                            <div className='progress-chart'>
+
+                                <div className="progress" >
+                                    <span className="skill">Node JS <i className="val">65%</i></span>
+                                    <div className="progress-bar-wrap">
+                                        <span className='bar'><span className='NodeJS'></span></span>
+                                    </div>
+                                </div>
+
+                                <div className="progress">
+                                    <span className="skill">Express JS <i className="val">65%</i></span>
+                                    <div className="progress-bar-wrap">
+                                        <span className='bar'><span className='Express'></span></span>
+                                    </div>
+                                </div>
+
+
+                                <div className="progress">
+                                    <span className="skill">Mongo DB<i className="val">85%</i></span>
+                                    <div className="progress-bar-wrap">
+                                        <span className='bar'><span className='MongoDB'></span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> */}
 
                     </div>
 
