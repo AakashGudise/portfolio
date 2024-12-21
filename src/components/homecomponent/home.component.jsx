@@ -55,6 +55,46 @@
 // }
 
 
+// import React from 'react';
+// import { useTypewriter, Cursor } from 'react-simple-typewriter';
+// import './home.component.css';
+
+// export function HomeComponent() {
+//     // Initialize typewriter effect
+//     const [text] = useTypewriter({
+//         words: ['Developer', 'Designer', 'A MERN STACK Developer', 'Freelancer'],
+//         loop: 0, // Set to 0 for infinite loop or specify a number of iterations
+//         delaySpeed: 1500, // Delay between changing words
+//         deleteSpeed: 50, // Speed of deleting characters
+//         typeSpeed: 100, // Speed of typing characters
+//     });
+
+//     return (
+//         <div>
+//             <section id="hero" className="d-flex flex-column justify-content-around align-items-center">
+//                 <div className="hero-container">
+//             <div className="hero-container">
+//                     <h1>Gudise Aakash</h1>
+//                     <p>I'm  <span > 
+//                         {text}
+//                     </span> <Cursor></Cursor> </p>
+//                 </div>
+
+//                 {/* <div className="hero-container">
+//                     <h1>Gudise Aakash</h1>
+//                     <p>
+//                         I'm <span>{text}</span>
+//                         <Cursor cursorStyle="|" />
+//                     </p>
+//                 </div>
+//             </section>
+//         </div>
+//     );
+//     )
+// }
+
+
+
 import React from 'react';
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 import './home.component.css';
@@ -73,14 +113,6 @@ export function HomeComponent() {
         <div>
             <section id="hero" className="d-flex flex-column justify-content-around align-items-center">
                 <div className="hero-container">
-            <div className="hero-container">
-                    <h1>Gudise Aakash</h1>
-                    <p>I'm  <span > 
-                        {text}
-                    </span> <Cursor></Cursor> </p>
-                </div>
-
-                {/* <div className="hero-container">
                     <h1>Gudise Aakash</h1>
                     <p>
                         I'm <span>{text}</span>
@@ -90,5 +122,4 @@ export function HomeComponent() {
             </section>
         </div>
     );
-    )
 }
