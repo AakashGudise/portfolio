@@ -2,8 +2,10 @@
     margin-left: 300px;
 }
 
+/*     margin-left: 300px;  */
 @media (max-width: 480px) {
     .admin_2{
         margin-left: 0px;
     } 
 }
+
