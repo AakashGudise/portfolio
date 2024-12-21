@@ -4,6 +4,22 @@
     background: url("../../assets/images/myimages/backgroundImg.jpeg") top center;
     background-size: cover;
   }
+  /* typewriter cursor start */
+  .hero-container {
+    text-align: center;
+    color: #050d18;
+}
+
+.hero-container h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero-container p {
+    font-size: 1.5rem;
+}
+
+  /* typewritter ends */
   
   #hero:before {
     content: "";

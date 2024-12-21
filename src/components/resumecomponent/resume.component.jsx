@@ -8,7 +8,10 @@ export function ResumeComponent() {
 
                     <div className="section-title">
                         <h2>Resume</h2>
-                        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                        <p>MERN Stack developer skilled in MongoDB, Express.js, React.js and Node.js. 
+                            Proven success in crafting and deploying web applications for optimal 
+                            user experiences. Actively seeking opportunities for contribution and 
+                            professional growth.</p>
                     </div>
 
                     <div className="row">
@@ -16,12 +19,12 @@ export function ResumeComponent() {
                             <h3 className="resume-title">Sumary</h3>
                             <div className="resume-item pb-0">
                                 <h4>G Aakash</h4>
-                                <p><em>Innovative and deadline-driven Developer with 1+ year of experience 
-                                    creating user-focused digital solutions, transforming initial 
+                                <p><em>Innovative and deadline-driven Developer with 1+ year of experience
+                                    creating user-focused digital solutions, transforming initial
                                     concepts into functional, efficient, and polished deliverables.</em></p>
                                 <ul>
                                     {/* <li>Portland par 127,Orlando, FL</li> */}
-                                    <li>(+92) 7989023063</li>
+                                    <li>(+91) 7989023063</li>
                                     <li>gudisheakash@gmail.com</li>
                                 </ul>
                             </div>
@@ -53,10 +56,24 @@ export function ResumeComponent() {
                                 <h5>2022 - 2023</h5>
                                 <p><em>Synergy Universal PVT LTD</em></p>
                                 <ul>
-                                    <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
-                                    <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
-                                    <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
-                                    <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
+                                    <li><h4>Projects</h4></li>
+                                    <li><h6><u>Multi Vendor Service Provider</u></h6></li>
+                                    <li>Developed a web-based multi-vendor service provider platform using the MERN stack,
+                                        allowing multiple vendors to register, offer their services,
+                                        and customers to search, book, and rate services seamlessly.</li>
+                                    <li>Technologies: MongoDB, Express.js, React.js, Node.js, Redux,
+                                        JWT Authentication, Cloudinary (for image uploads), Rest API’s
+                                        (for CRUD quick response).</li>
+                                    <li>
+                                        Designed and Developed RESTful APIs in Node.js/Express for vendor
+                                        and service management, authentication, and order processing. Built Front-End using React.js
+                                        with Redux for state management to handle user authentication, service listings,
+                                        and booking flows.
+                                    </li>
+                                    <li>Integrated MongoDB to store vendor details, customer information,
+                                        services, and booking records. Used Mongoose for database modeling
+                                        and querying. Implemented JWT Authentication for secure login and
+                                        access control for vendors and customers.</li>
                                 </ul>
                             </div>
                             <div className="resume-item">
@@ -64,10 +81,11 @@ export function ResumeComponent() {
                                 <h5>2021 - 2021</h5>
                                 <p><em>IDC Technologies PVT LTD</em></p>
                                 <ul>
-                                    <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).</li>
-                                    <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
-                                    <li>Recommended and consulted with clients on the most appropriate graphic design</li>
-                                    <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
+                                    <li>Screening and Sourcing Profile in various 
+                                        pourtals as per client requirement.</li>
+                                    <li>Commuicating with cliet’s and candidates ,Scheduling interview.</li>
+                                    <li>Collecting Documents for backgrount verification and maintaining candidates records</li>
+                                    {/* <li>Created 4+ design presentations and proposals a month for clients and account managers</li> */}
                                 </ul>
                             </div>
                         </div>

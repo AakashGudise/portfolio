@@ -86,8 +86,8 @@ export function MenuComponent() {
             <div className="social-links mt-3 text-center">
               <a href="#"><Twitter className="social-icons" /></a>
               <a href="#"><Facebook className="social-icons" /></a>
-              <a href="#"><Instagram className="social-icons" /></a>
-              <a href="#"><Linkedin className="social-icons" /></a>
+              <a href="https://www.instagram.com/aakash.126999/?__pwa=1"><Instagram className="social-icons" /></a>
+              <a href="http://www.linkedin.com/in/aakash-gudise"><Linkedin className="social-icons" /></a>
             </div>
           </div>
 

@@ -45,7 +45,16 @@ export function ContactComponent() {
 
                         <div className="section-title">
                             <h2>Contact</h2>
-                            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                            <p>Building seamless and efficient web applications requires a 
+                                strong grasp of modern technologies. As MERN stack developers, 
+                                we thrive on solving complex problems and crafting solutions 
+                                that enhance user experiences. Leveraging the power of MongoDB 
+                                for robust data handling, Express.js for scalable back-end 
+                                architecture, React.js for dynamic front-end interfaces, 
+                                and Node.js for efficient server-side execution, we transform 
+                                challenges into opportunities. Together, we develop innovative 
+                                solutions, ensuring every detail contributes to a seamless and 
+                                impactful digital experience.</p>
                         </div>
 
                         <div className="row" data-aos="fade-in">
@@ -55,19 +64,19 @@ export function ContactComponent() {
                                     <div className="address">
                                         <GeoAlt className='contact-icons'></GeoAlt>
                                         <h4>Location:</h4>
-                                        <p>A108 Adam Street, New York, NY 535022</p>
+                                        <p>Hyderabad, Telangana, 500053</p>
                                     </div>
 
                                     <div className="email">
                                         <Envelope className='contact-icons'></Envelope>
                                         <h4>Email:</h4>
-                                        <p>info@example.com</p>
+                                        <p>aakashgudise@gmail.com /   <br></br> gudisheakash@gmail.com</p>
                                     </div>
 
                                     <div className="phone">
                                         <Phone className='contact-icons'></Phone>
                                         <h4>Call:</h4>
-                                        <p>+1 5589 55488 55s</p>
+                                        <p>+91 7989023063</p>
                                     </div>
                                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.472332567743!2d78.39170797516606!3d17.43709278345863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb935b5300edb3%3A0xd7d90723be396126!2sSynergy%20Universal!5e0!3m2!1sen!2sin!4v1702451232328!5m2!1sen!2sin"   height="290" style={{ border: "0;",width:"100%" }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                     {/* <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1//m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe> */}

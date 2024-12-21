@@ -1,9 +1,36 @@
-.skills .progress {
+/* .skills .progress {
     height: 60px;
     display: block;
     background: none;
     border-radius: 0;
-  }
+    width: 80%;
+  } */
+
+  .skills .progress {
+    height: 60px;
+    display: block;
+    background: none;
+    border-radius: 0;
+    width: 90%; /* Ensures the progress bars are 80% wide */
+    margin: 0 auto; /* Horizontally centers the progress bar */
+}
+
+.skills-content {
+  display: flex;
+  justify-content: center; /* Centers the progress bars horizontally */
+  flex-wrap: wrap; /* Ensures they wrap properly for responsiveness */
+}
+
+
+.skills .progress .skill {
+  /* text-align: center; Ensures skill text aligns to the center */
+  display: block;
+  margin-bottom: 10px;
+}
+
+  /* .skill .progress-chart{
+    align-items: center;
+  } */
   
   .skills .progress .skill {
     padding: 0;
@@ -70,7 +97,7 @@
     animation: html 3s;
   }
   .javascript{
-    width: 75%;
+    width: 65%;
     animation: html 3s;
   }
   .reactjs{

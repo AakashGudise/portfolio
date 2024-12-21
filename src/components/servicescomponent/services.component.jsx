@@ -16,82 +16,70 @@ export function ServicesCompnent() {
 
                     <div className="section-title">
                         <h2>Services</h2>
-                        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                        <p>
+                        MERN Stack Developer specializes in building dynamic, 
+                        full-stack web applications using MongoDB, Express.js, React.js, 
+                        and Node.js, ensuring seamless performance, robust security, and 
+                        scalable solutions.
+                        </p>
                     </div>
 
                     <div className="row">
                         <div className="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
                             <div className="icon"><Briefcase classNameName='serviceicon'></Briefcase></div>
-                            <h4 className="title"><a href="">Lorem Ipsum</a></h4>
-                            <p className="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                            <h4 className="title"><a href="">Front-End Development
+                            </a></h4>
+                            <p className="description">Building dynamic, responsive, and interactive 
+                                user interfaces using React.js.Optimizing user experiences with seamless 
+                                navigation and design.Implementing reusable components and managing state 
+                                with React hooks, context, or Redux.</p>
                         </div>
                         <div className="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
                             <div className="icon"><CardChecklist classNameName='serviceicon'></CardChecklist></div>
-                            <h4 className="title"><a href="">Dolor Sitema</a></h4>
-                            <p className="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+                            <h4 className="title"><a href="">Back-End Development</a></h4>
+                            <p className="description">Developing RESTful APIs with Express.js.
+                                Handling server-side logic, middleware, and integration with databases.
+                                Ensuring secure and efficient back-end operations.</p>
                         </div>
                         <div className="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
                             <div className="icon"><BarChart classNameName='serviceicon'></BarChart></div>
-                            <h4 className="title"><a href="">Sed ut perspiciatis</a></h4>
-                            <p className="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                            <h4 className="title"><a href="">Database Management
+                            </a></h4>
+                            <p className="description">Designing and managing NoSQL databases with MongoDB.
+                                Writing efficient queries and managing database relationships.
+                                Ensuring data consistency, scalability, and security.</p>
                         </div>
                         <div className="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
                             <div className="icon"><Binoculars classNameName='serviceicon'></Binoculars></div>
-                            <h4 className="title"><a href="">Magni Dolores</a></h4>
-                            <p className="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                            <h4 className="title"><a href="">Full-Stack Integration</a></h4>
+                            <p className="description">Combining front-end, back-end, 
+                                and database layers seamlessly.
+                                Debugging and resolving integration issues.
+                                Deploying and managing full-stack applications.</p>
                         </div>
                         <div className="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
                             <div className="icon"><BrightnessAltHigh classNameName='serviceicon'></BrightnessAltHigh></div>
-                            <h4 className="title"><a href="">Nemo Enim</a></h4>
-                            <p className="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+                            <h4 className="title"><a href="">API Development & Integration</a></h4>
+                            <p className="description">
+                                Creating custom APIs for application features.
+                                Integrating third-party APIs for services like payments, 
+                                maps, or authentication.
+                                Ensuring API security and performance.</p>
                         </div>
                         <div className="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
                             <div className="icon"><Calendar4Week classNameName='serviceicon'></Calendar4Week></div>
-                            <h4 className="title"><a href="">Eiusmod Tempor</a></h4>
-                            <p className="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+                            <h4 className="title"><a href="">Security Implementation</a></h4>
+                            <p className="description">Implementing user authentication and 
+                                authorization with JWT or OAuth.
+                                Encrypting sensitive data and maintaining secure communication channels.</p>
                         </div>
                     </div>
 
                 </div>
             </section>
-            {/* <!-- End Services Section --> */}
-
-            {/* <!-- ======= Testimonials Section ======= --> */}
+            
 
 {/* 
-            <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
-                <div className="carousel-inner">
-                    <div className="carousel-item active">
-                        <img src="..." className="d-block w-100" alt="..." />
-                    </div>
-                    <div className="carousel-item">
-                        <img src="..." className="d-block w-100" alt="..." />
-                    </div>
-                    <div className="carousel-item">
-                        <img src="..." className="d-block w-100" alt="..." />
-                    </div>
-                    <div className="carousel-item">
-                        <img src="..." className="d-block w-100" alt="..." />
-                    </div>
-                    <div className="carousel-item">
-                        <img src="..." className="d-block w-100" alt="..." />
-                    </div>
-                    <div className="carousel-item">
-                        <img src="..." className="d-block w-100" alt="..." />
-                    </div>
-                </div>
-                <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span className="visually-hidden">Previous</span>
-                </button>
-                <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span className="visually-hidden">Next</span>
-                </button>
-            </div> */}
-
-
-
             <section id="testimonials" className="testimonials section-bg">
                 <div className="container">
 
@@ -190,7 +178,7 @@ export function ServicesCompnent() {
 
                 </div>
             </section>
-
+ */}
 
 
             {/* <!-- End Testimonials Section --> */}

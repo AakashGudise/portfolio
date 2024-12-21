@@ -52,7 +52,7 @@ export function FactsComponent() {
 
                     <div class="section-title">
                         <h2>Facts</h2>
-                        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                        <p>In the span of 2 year of experience worked with different clients.</p>
                     </div>
 
                     <div class="row no-gutters">
@@ -60,7 +60,7 @@ export function FactsComponent() {
                         <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
                             <div class="count-box">
                                 <i class="bi bi-emoji-smile"></i><EmojiSmile className='i'></EmojiSmile>
-                                <CountUp start={0} end={232} duration={3} delay={1}></CountUp>
+                                <CountUp start={0} end={4} duration={15} delay={5}></CountUp>
                                 <p><strong>Happy Clients</strong> consequuntur quae</p>
                             </div>
                         </div>
@@ -68,7 +68,7 @@ export function FactsComponent() {
                         <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="100">
                             <div class="count-box">
                                 <i class="bi bi-journal-richtext"></i><JournalRichtext className='i'></JournalRichtext>
-                                <CountUp start={0} end={521} duration={3} delay={1}></CountUp>
+                                <CountUp start={0} end={5} duration={25} delay={5}></CountUp>
                                 <p><strong>Projects</strong> adipisci atque cum quia aut</p>
                             </div>
                         </div>
@@ -76,7 +76,7 @@ export function FactsComponent() {
                         <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="200">
                             <div class="count-box">
                                 <i class="bi bi-headset"></i><Headset className='i'></Headset>
-                                <CountUp start={0} end={1453} duration={3} delay={1}></CountUp>
+                                <CountUp start={0} end={1453} duration={25} delay={5}></CountUp>
                                 <p><strong>Hours Of Support</strong> aut commodi quaerat</p>
                             </div>
                         </div>
@@ -85,7 +85,7 @@ export function FactsComponent() {
                             <div class="count-box">
                                 <i class="bi bi-people"></i><People className='i'></People>
                                 <CountUp start={0} end={32} duration={3} delay={1}></CountUp>
-                                <p><strong>Hard Workers</strong> rerum asperiores dolor</p>
+                                <p><strong>On Boardings</strong> as recruiter</p>
                             </div>
                         </div>
 
