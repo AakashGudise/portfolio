@@ -48,6 +48,7 @@
 
 
 import './menu.component1.0.css'
+import './menu.component.css'
 import React, { useState } from "react";
 import {
   Envelope,

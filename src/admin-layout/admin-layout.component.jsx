@@ -29,7 +29,7 @@ export function AdminLayout() {
                     <PortfolioComponent></PortfolioComponent>
                     <ServicesCompnent></ServicesCompnent>
                     <ContactComponent></ContactComponent>
-                    <FooterComponent></FooterComponent>
+                    {/* <FooterComponent></FooterComponent> */}
 
                 </div>
             </div>
